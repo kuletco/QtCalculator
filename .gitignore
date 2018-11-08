@@ -2,6 +2,7 @@
 /debug
 /release
 *.rc
+*.qm
 .qmake.stash
 *.user
 Makefile

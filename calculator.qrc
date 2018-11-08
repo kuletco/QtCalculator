@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/locale">
+        <file alias="zhCN">Calculator.zhCN.qm</file>
+    </qresource>
+</RCC>

@@ -49,12 +49,18 @@
 ****************************************************************************/
 
 #include <QApplication>
+#include <QTranslator>
 
 #include "calculator.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
+
+    QTranslator translator;
+    translator.load(":/locale/zhCN");
+    app.installTranslator(&translator);
+
     Calculator calc;
     calc.show();
     return app.exec();

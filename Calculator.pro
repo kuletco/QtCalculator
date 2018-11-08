@@ -4,6 +4,7 @@ TARGET = Calculator
 VERSION = 1.0.0
 win32 {
     RC_ICONS = Calculator.ico
+    RC_LANG = 0x0004
     QMAKE_TARGET_PRODUCT = "Calculator"
     QMAKE_TARGET_DESCRIPTION = "Calculator"
     QMAKE_TARGET_COMPANY = "ZhaoTY"
@@ -37,4 +38,8 @@ HEADERS =   button.h \
 SOURCES =   button.cpp \
             calculator.cpp \
             main.cpp
+
+TRANSLATIONS += Calculator.zhCN.ts
+
+RESOURCES += Calculator.qrc
 
